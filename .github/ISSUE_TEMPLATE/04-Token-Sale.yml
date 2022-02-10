@@ -1,0 +1,43 @@
+name: Token Sale Campaign
+description: Add a token sale campaign item to be reviewed, approved and scheduled.
+labels: ['Token Sale', 'Draft']
+body:
+  - type: markdown
+    attributes:
+      value: Add a token sale campaign item to be reviewed, approved and scheduled.
+  - type: input
+    attributes:
+      label: Who?
+      description: Enter to whom this item is targeting.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What?
+      description: Enter the campaign content here. Include pictures, links, files, etc.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: When?
+      description: Enter the date of this release. (ex. JAN 01, 2022)
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Where?
+      description: Enter where you will publish this to? (ex. twitter, discord, etc.)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Why?
+      description: Call to action; Enter what you want the target audience to do after reading this (ex. sign up with http://www.arkofdreams.io/signup )
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Tasks and Dependencies
+      description: Describe the tasks involved and the dependencies needed in order to release this.
+    validations:
+      required: false
