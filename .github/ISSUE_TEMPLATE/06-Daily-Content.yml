@@ -8,7 +8,7 @@ body:
   - type: input
     attributes:
       label: Who?
-      description: Enter to whom this content is targeting.
+      description: Enter to whom this content is targeting. (eg. new users, arkonians, pet owners...)
     validations:
       required: true
   - type: textarea
