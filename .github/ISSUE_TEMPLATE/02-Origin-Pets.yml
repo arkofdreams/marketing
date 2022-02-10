@@ -1,5 +1,5 @@
 name: Origin Pets Campaign
-description: Add a campaign item
+description: Add an Origin Pet campaign item to be reviewed, approved and scheduled.
 labels: ['Origin Pets', 'Draft']
 body:
   - type: markdown
