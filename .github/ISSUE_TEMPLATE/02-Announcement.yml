@@ -20,7 +20,7 @@ body:
   - type: input
     attributes:
       label: When?
-      description: Enter the date of this announcement. (ex. JAN 01, 2022)
+      description: Enter the date and time of this announcement. (ex. JAN 01, 2022 12:00am)
     validations:
       required: true
   - type: input
