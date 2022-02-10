@@ -1,6 +1,6 @@
 name: Press Release
 description: Create a press release
-labels: ['Press Release']
+labels: ['Press Release', 'Draft']
 body:
   - type: markdown
     attributes:
@@ -35,3 +35,9 @@ body:
       description: Call to action; Enter what you want the target audience to do after reading this (ex. sign up with http://www.arkofdreams.io/signup )
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: Tasks and Dependencies
+      description: Describe the tasks involved and the dependencies needed in order to release this.
+    validations:
+      required: false
