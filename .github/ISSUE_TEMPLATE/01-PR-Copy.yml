@@ -1,6 +1,6 @@
 name: Press Release
 description: Create a press release
-labels: ['feature']
+labels: ['Press Release']
 body:
   - type: markdown
     attributes:
