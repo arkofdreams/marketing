@@ -1,5 +1,5 @@
 name: Press Release
-description: Create a press release
+description: Create a press release to be reviewed, approved and scheduled.
 labels: ['Press Release', 'Draft']
 body:
   - type: markdown
