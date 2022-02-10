@@ -1,0 +1,37 @@
+name: Press Release
+description: Create a press release
+labels: ['feature']
+body:
+  - type: markdown
+    attributes:
+      value: Create a press release to be reviewed, approved and scheduled.
+  - type: textarea
+    attributes:
+      label: Who?
+      description: Enter to whom this press release is targeting.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What?
+      description: Enter the press release content here. Include pictures, links, files, etc.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: When?
+      description: Enter the date of this release. (ex. JAN 01, 2022)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Where?
+      description: Enter where you will publish this to? (ex. twitter, discord, etc.)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Why?
+      description: Call to action; Enter what you want the target audience to do after reading this (ex. sign up with http://www.arkofdreams.io/signup )
+    validations:
+      required: true
